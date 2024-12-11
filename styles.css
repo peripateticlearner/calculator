@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 200px;
+    height: 300px;
+    margin: 50px auto;
+    text-align: center;
+    border: 5px solid green;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+}
+
+td, th {
+    border: 1px solid red;
+}
+
+td:hover {
+    background-color: lightcoral;
+    color: white;
+ }
+
+ #value {
+    text-align: end;
+ }
